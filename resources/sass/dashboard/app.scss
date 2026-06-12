@@ -1,0 +1,109 @@
+/**BUTTONS*/
+.btn-tdf-primary {
+    color: white;
+    background: #2969a2;
+}
+.btn-tdf-primary_tabs {
+    color: white;
+    background: #2969a2;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-tdf-primary {
+    color: white;
+    background: #2969a2;
+}
+
+/**BreadCrumb **/
+
+.breadcrumb {
+    a {
+        color: #2969a2;
+    }
+}
+
+@import "variables";
+@import "mixin";
+@import "loader";
+@import "home";
+@import "projects";
+@import "search";
+@import "about";
+@import "settings";
+@import "home/component/assigned-project";
+@import "home/component/target-progress-overview";
+@import "login";
+@import "global";
+
+.rounded-select-container {
+    .select2-container .select2-selection {
+        border-radius: 5px !important;
+    }
+
+    .select2-selection__rendered {
+        padding-top: 3px !important;
+    }
+}
+
+.thead-blue th {
+    color: #fff;
+    background-color: #225e95;
+    border-color: #588bb9;
+}
+
+.select2-multiple {
+    .select2-dropdown {
+        z-index: 2054 !important;
+    }
+
+    .select2-container--default {
+        width: 100% !important;
+    }
+
+    .select2-selection__choice {
+        color: white !important;
+        background: #2969a2 !important;
+        font-size: 14px !important;
+        padding: 5px 10px !important;
+    }
+}
+
+.tdf-progress-input-target-box {
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    background-color: rgb(82, 159, 82) !important;
+
+    &--small {
+        width: 24px;
+        height: 24px;
+
+        margin: auto;
+        background-color: rgb(82, 159, 82) !important;
+    }
+}
+
+.set-target-dragable-table {
+    .handle {
+        cursor: move;
+    }
+
+    table {
+        th {
+            font-size: 16px;
+        }
+        tbody {
+        }
+    }
+}
+
+.pdf-table {
+    padding: 1px !important;
+    th {
+        padding: 8px 5px !important;
+    }
+    td {
+        padding: 8px 5px !important;
+    }
+}

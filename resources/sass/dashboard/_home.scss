@@ -1,0 +1,82 @@
+.home-search-container {
+    width: 500px;
+    @include respond(tab-land) {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+.stat-box-container {
+    background-color: #215d93;
+    filter: drop-shadow(3px 3px 5px #585858);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 30px 0px 10px 30px;
+
+    .province_name {
+        background-color: #215d93;
+        font-weight: bold;
+        color: #fff;
+        text-align: left;
+        font-size: 20px;
+    }
+    .project-single {
+        margin-top: 35px;
+    }
+
+    .counter_title {
+        margin-left: 10px;
+    }
+}
+
+// remove map banner
+.leaflet-control-attribution {
+    // display: none;
+}
+.leaflet-bottom {
+    left: 0;
+    right: auto;
+}
+
+// FILTERS
+
+.home-filter-section {
+    .dashboard_filter_select2 + .select2-container .select2-selection {
+        border-radius: 8px !important;
+    }
+    .select2-selection__rendered {
+        padding-top: 3px !important;
+    }
+}
+
+/** Counters **/
+.home-counter {
+    &-single {
+        &--title {
+            font-weight: 500;
+            color: #878a99 !important;
+            margin-bottom: 10px;
+        }
+        &--count {
+            font-weight: 500 !important;
+            font-size: 22px !important;
+            // color: #53585c;
+            line-height: 1.2;
+        }
+    }
+}
+.avatar-md {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #4a81d4;
+    .avatar-title {
+        font-size: 22px;
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 100%;
+    }
+}

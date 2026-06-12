@@ -1,0 +1,39 @@
+.custom-table {
+    border: none;
+    text-align: center;
+    border-spacing: 0 !important;
+}
+
+.custom-table thead {
+    background-color: #2767a0;
+}
+
+.custom-table thead > tr > th {
+    color: #fff;
+    border: 1px solid #fff !important;
+    /* padding: 15px; */
+}
+
+.custom-table thead > tr > th span {
+    padding: 0.9375rem;
+    display: block;
+}
+
+.custom-table thead > tr > th > table {
+    width: 100%;
+}
+
+.custom-table tbody > tr > td {
+    border: 1px solid #e1e1e1 !important;
+    /* padding: 15px; */
+}
+
+.custom-table tbody > tr > td.bg-select {
+    background-color: green;
+    color: #fff;
+}
+
+.custom-table tbody > tr > td.bg-success {
+    background-color: green !important;
+    color: #fff;
+}

@@ -1,0 +1,72 @@
+.province-projects-section {
+    $height_cards: 100vh;
+    .province-project-datatable-container {
+        min-height: 90vh !important;
+        // @include respond(tab-land) {
+        //     min-height: $height_cards !important;
+        // }
+    }
+    .overview-chart-container {
+        // min-height: 100vh !important;
+        // @include respond(tab-land) {
+        //     min-height: $height_cards  !important;
+        // }
+    }
+
+    .province-projects-container {
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgba($color: #d4d6d8, $alpha: 1);
+            border-radius: 10px;
+        }
+
+        /* Handle on hover */
+        // ::-webkit-scrollbar-thumb:hover {
+        //     background: #b30000;
+        // }
+
+        .dataTables_length {
+            padding-top: 12px;
+        }
+        .dataTables_wrapper {
+            padding-top: 0px;
+        }
+        .search-filters-container {
+            padding: 20px 0 10px 20px;
+
+            .search-container {
+                input {
+                    background: #e9edf2;
+                    border-radius: 20px;
+                    border: 0px;
+                    height: 40px;
+                }
+            }
+            .filter-container {
+                padding-top: 8px;
+                cursor: pointer;
+
+                .filter-menu {
+                    &-container {
+                        padding: 20px;
+                        width: 250px;
+                    }
+
+                    &--actions {
+                    }
+                }
+            }
+        }
+    }
+}

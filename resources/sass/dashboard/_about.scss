@@ -1,0 +1,23 @@
+.about-section {
+    .about-section-title {
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .head-title-container {
+        img {
+            height: 120px;
+        }
+        .pjn {
+            font-size: 35px;
+            font-weight: bold;
+        }
+    }
+    p {
+        font-size: 18px;
+        margin: 30px 0px 50px;
+        text-align: justify;
+        padding-right: 20px;
+    }
+}

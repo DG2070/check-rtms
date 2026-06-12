@@ -1,0 +1,552 @@
+/* maps */
+.grandParent {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.parent {
+    width: 75%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    background-color: transparent !important;
+    /* box-shadow: 2px 5px 10px 1px black; */
+}
+
+.info {
+    background-color: #215d93;
+    filter: drop-shadow(3px 3px 5px #585858);
+    border-radius: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    height: 20%;
+    width: 100%;
+    background-color: #215d93;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+.title h3 {
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgb(201, 15, 15);
+}
+.ProvinceInfoBox {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.ProvinceInfoBox span {
+    /* font-size: .9rem; */
+    color: #fff;
+}
+.ProvinceInfoBox p {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 500;
+    /* font-weight: bold; */
+}
+.valueText {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+/* maps end */
+
+/* Custom Dashboard css for TDF According to XD design */
+
+.custom-dash {
+    top: -30px;
+    position: relative;
+    z-index: 999;
+}
+
+.card-once {
+    background-color: #012443; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #012443, #2969a2);
+    width: auto;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.header-card {
+    border-bottom: 0px !important;
+}
+
+.dash-card-hover:hover {
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 6px;
+    background-color: #2969a2;
+    box-shadow: #2969a2;
+}
+
+/* Tooltip container */
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    color: #fff !important;
+    /* margin-right: 18px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+/* Tooltip text */
+.tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 160px;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    left: 30px;
+    z-index: 99;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+}
+
+.active-list {
+    border-radius: 100%;
+    background-color: rgb(128, 112, 112);
+    padding: 0 6px 0 6px;
+}
+
+.non-active-list {
+    padding: 0 6px 0 6px;
+}
+
+/* Tooltip container */
+.tooltip2 {
+    position: relative;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Tooltip text */
+.tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 160px;
+    background-color: grey;
+    color: #fff;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    bottom: 20px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+}
+
+/* Custom Navbar css for TDF According to XD design */
+
+.grad {
+    background-color: #2969a2; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #2969a2, #1d588d);
+    position: relative;
+}
+
+.main-header {
+    z-index: 0;
+}
+.nagarpalika-padding {
+    padding-right: 6.5rem;
+}
+@media (max-width: 767px) {
+    .nagarpalika-padding {
+        padding-right: 1rem;
+    }
+}
+.custom-nav {
+    min-height: 100px;
+}
+.custom-top-bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.head {
+    font-size: 17px;
+    color: #fff;
+    font-weight: bolder;
+}
+.sub-head {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bolder;
+}
+.head-location {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.right-nav {
+    float: right !important;
+}
+
+.date-custom {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.ktm-nagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    width: auto;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.top-nagar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #198cf0;
+    color: #fff;
+    border-radius: 50px;
+    /* font-weight: bolder; */
+    font-size: 15px;
+}
+
+.fiscal-select {
+    font-weight: bolder;
+    color: black;
+    width: 165px;
+    border-radius: 50px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.date-nagar {
+    color: #fff;
+}
+
+.color-bar {
+    color: #fff;
+}
+
+.color-bar:hover {
+    color: burlywood;
+}
+
+.box-click:hover {
+    color: burlywood;
+}
+
+.table-header-top {
+    background-color: #012443;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+}
+.bage {
+    background-color: #fff;
+    border-radius: 50px;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+/* below css is for active classes of sidebar active-a and active-b */
+
+.active-a {
+    background-color: #83a8c9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #83a8c9, #1d588d);
+}
+.active-b {
+    background-color: #83a8c9;
+}
+
+/* custom css for tdf sidebar */
+
+.color-grad-background {
+    background: linear-gradient(#1d588d, #2969a2);
+}
+
+.sidebar-link-color {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.sidebar-link-color:hover {
+    background-color: rgb(
+        196,
+        188,
+        178
+    ) !important; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #1d588d, #2969a2) !important;
+    border-radius: 5px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(
+        196,
+        188,
+        178
+    ) !important; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #1d588d, #83a8c9) !important;
+    border-radius: 5px;
+}
+
+/* custom user profile css for tdf */
+
+.custom-dash {
+    top: -30px;
+    position: relative;
+    z-index: 999;
+}
+
+.tdf-fieldset-form-left {
+    background-color: #012443;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.margin-card {
+    margin-bottom: 0px !important;
+    background-color: #f7f7f7 !important;
+}
+
+.fieldset-tdf {
+    width: auto;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #000 !important;
+    border-radius: 5px;
+}
+
+.tdf-form-legend {
+    color: #1d588d;
+    font-size: 15px;
+    width: auto;
+}
+.second-header {
+    border-radius: 0 0 30px 30px;
+    /* margin-bottom: 40px; */
+}
+
+/* Custom buttons  */
+.btn {
+    border-radius: 12px;
+    font-size: 1rem;
+}
+.btn-custom-primary {
+    background-color: #2969a2;
+    color: white;
+}
+.btn-custom-primary:hover {
+    background-color: #1d588d;
+    color: white;
+}
+.btn-custom-secondary {
+    background-color: #22826e;
+    color: white;
+}
+.btn-custom-secondary:hover {
+    background-color: #166053;
+    color: white;
+}
+.btn-custom-rounded {
+    border-radius: 50%;
+}
+
+aside.main-sidebar {
+    position: fixed !important;
+    overflow: hidden !important;
+    height: 100vh !important;
+}
+
+/* Static tables */
+.table-card-body {
+    padding: 0px;
+}
+
+.table-card-body thead {
+    background-color: #051423;
+    color: white;
+    border-bottom: none;
+}
+.table-card-body table tr:last-child td:first-child {
+    border-bottom-left-radius: 16px;
+}
+
+.table-card-body table tr:last-child td:last-child {
+    border-bottom-right-radius: 16px;
+}
+
+.table-card-body table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.table-card-body table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.table-card-body th {
+    border: none !important;
+    font-size: 1rem;
+}
+.table-card-body td {
+    border-bottom: 1px solid #2969a2 !important;
+    vertical-align: center;
+    /* padding-top: 12px;
+    padding-bottom: 12px; */
+    font-size: 1rem;
+    min-height: 36px;
+    vertical-align: middle;
+}
+
+.custom-pagination-div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.custom-pagination-div nav {
+    display: inline-block;
+}
+
+.pagination {
+    display: flex;
+    gap: 15px;
+}
+.pagination li :first-child {
+    border-radius: 10px;
+    padding: 5px 10px 7px 10px;
+    vertical-align: center;
+}
+.pagination li:first-child :first-child {
+    background-color: #2969a2;
+    /* display: none; */
+    color: white;
+    /* content: 'previous'; */
+}
+.pagination li:first-child :first-child:after {
+    /* content: ' previous'; */
+    background-color: #2969a2;
+    color: white;
+}
+.pagination li:last-child :last-child {
+    background-color: #2969a2;
+    /* display: none; */
+    color: white;
+    /* content: 'previous'; */
+}
+.pagination li:last-child :last-child:before {
+    /* content: 'next '; */
+    background-color: #2969a2;
+    color: white;
+}
+
+.alert {
+    vertical-align: middle;
+}
+.alert p {
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.dataTables_wrapper:last-child {
+    padding: 20px;
+}
+/* .dataTables_wrapper th, .dataTables_wrapper td{
+    border: none;
+} */
+
+.table-progress {
+    position: relative;
+}
+.table-progress .progress {
+    width: 65%;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 7%);
+}
+.table-progress .progress-des {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.table-progress .progress-des strong {
+    margin-right: 10px;
+    font-weight: 600;
+}
+.leaflet__tooltip-own {
+    fillcolor: none;
+    fillopacity: 0;
+    fill: false;
+    background-color: none;
+    border-color: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0px;
+    cursor: none;
+    /* all: revert; */
+    interactive: false;
+    color: #0e0e0e;
+    font-size: 14px;
+    font-weight: 700;
+}

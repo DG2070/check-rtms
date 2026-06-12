@@ -1,0 +1,30 @@
+.home-assigned-project-component {
+    font-family: $font_poppins !important;
+
+    .main-title {
+        font-size: 18px;
+        margin: 0 0 7px 0;
+        color: #495057;
+        font-family: $font_poppins !important;
+    }
+
+    .card {
+        box-shadow: 0 1px 2px rgb(56 65 74 / 15%) !important;
+    }
+
+    table {
+        th {
+            font-family: $font_poppins !important;
+            font-weight: 500;
+        }
+        td {
+            font-family: $font_roboto !important;
+            font-weight: normal;
+        }
+    }
+
+    .table-container {
+        max-height: 60vh;
+        overflow-y: scroll;
+    }
+}
